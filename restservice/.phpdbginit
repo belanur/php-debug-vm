@@ -1,0 +1,9 @@
+# execute the same file nginx serves
+exec public/index.php
+
+# stub some request parameters
+<:
+$_SERVER['REQUEST_URI'] = '/';
+$_SERVER['REQUEST_METHOD'] = 'get';
+:>
+
