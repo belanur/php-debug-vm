@@ -32,14 +32,5 @@ return [
     [
         'Sergeant Al Powell' => 'Hey Roy, how you feeling?',
         'John McClane' => 'Pretty fuckin\' unappreciated, Al.'
-    ],
-    [
-
-    ],
-    [
-
-    ],
-    [
-
-    ],
+    ]
 ];
